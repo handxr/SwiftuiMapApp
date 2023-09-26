@@ -13,6 +13,8 @@
 		00BD19E72AC34D8600241567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00BD19E62AC34D8600241567 /* Assets.xcassets */; };
 		00BD19EC2AC34EC800241567 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BD19EB2AC34EC800241567 /* Location.swift */; };
 		00BD19EF2AC34F7D00241567 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BD19EE2AC34F7D00241567 /* LocationsDataService.swift */; };
+		00BD19F12AC34FE500241567 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BD19F02AC34FE500241567 /* LocationsView.swift */; };
+		00BD19F32AC351D400241567 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BD19F22AC351D400241567 /* LocationsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		00BD19E62AC34D8600241567 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00BD19EB2AC34EC800241567 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		00BD19EE2AC34F7D00241567 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		00BD19F02AC34FE500241567 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		00BD19F22AC351D400241567 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 		00BD19E92AC34E9800241567 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				00BD19F02AC34FE500241567 /* LocationsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 		00BD19EA2AC34E9F00241567 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				00BD19F22AC351D400241567 /* LocationsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -176,7 +182,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				00BD19EF2AC34F7D00241567 /* LocationsDataService.swift in Sources */,
+				00BD19F32AC351D400241567 /* LocationsViewModel.swift in Sources */,
 				00BD19DB2AC34D3200241567 /* ContentView.swift in Sources */,
+				00BD19F12AC34FE500241567 /* LocationsView.swift in Sources */,
 				00BD19EC2AC34EC800241567 /* Location.swift in Sources */,
 				00BD19D92AC34D3200241567 /* SwiftuiMapAppApp.swift in Sources */,
 			);
